@@ -1,0 +1,31 @@
+# This file was generated using 8base CLI.
+#
+# To learn more about writing custom GraphQL resolver types, visit
+# the 8base documentation at:
+#
+# https://docs.8base.com/8base-console/custom-functions/resolvers
+#
+
+"""
+ type CheckStatusResult {
+  # result: String!
+  id: String
+  taskCheck: Boolean
+}
+
+extend type Mutation {
+  checkStatus(filter: String, status: Boolean): CheckStatusResult
+}
+"""
+type TaskType {
+  id: String
+  taskCheck: Boolean
+}
+
+type CheckStatusResult {
+  items: TaskType
+}
+
+extend type Mutation {
+  checkStatus(id: String, status: Boolean): CheckStatusResult!
+}

@@ -1,0 +1,10 @@
+{
+  "data": {
+    "id": "cks0rxu4i007208mg0lzo59my",
+    "status": true
+  },
+  "headers": {
+    "x-header-1": "header value"
+  },
+  "body": "{\"foo\":\"bar\"}"
+}

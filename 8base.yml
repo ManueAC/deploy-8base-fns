@@ -1,0 +1,7 @@
+functions:
+  checkStatus:
+    type: resolver
+    handler:
+      code: src/resolvers/checkStatus/handler.ts
+    schema: src/resolvers/checkStatus/schema.graphql
+  

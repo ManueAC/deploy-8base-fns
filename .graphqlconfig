@@ -1,0 +1,10 @@
+{
+  "schemaPath": "schema.graphql",
+  "extensions": {
+    "endpoints": {
+      "dev": {
+        "url": "https://api.8base.com/ckrwi3x8e00lh08jl8qu3bdd4"
+      }
+    }
+  }
+}
